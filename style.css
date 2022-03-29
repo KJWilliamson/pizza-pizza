@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    margin-top: 250px;
+    background-repeat: no-repeat;
+    background-size: 1488px;
+    background-color: red;
+}
+
+
+h1,
+h2,
+form {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+button {
+  display: block;
+  margin: 20px auto;
+  background-color: red;
+  color: white;
+}
+
+h2 {
+  font-size: 80px;
+  color: white;
+  font-weight: bold;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+#pizza {
+  color: black;
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+
+    body {
+        margin-top: 450px;
+        background-size: contain;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+}
+
+
+
